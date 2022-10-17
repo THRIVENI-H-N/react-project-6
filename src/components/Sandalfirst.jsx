@@ -6,7 +6,7 @@ const Sandalfirst=({sandalhead,sandalsec,sandaltags,sandalimg}) =>{
   <>
     <div className="blocks">
     <div className="sandalwood1"  style={{backgroundImage:`url(${sandalimg})`}}/>
-    <div className="chikka1">
+    <div className="chikka">
     <h3 className="punith1">{sandalhead}</h3>
         <p className="punith2">{sandalsec}</p>
         {sandaltags.map((item4,index4)=>{
